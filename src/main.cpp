@@ -199,8 +199,9 @@ void loop() {
   }
 
     // Print all data to serial output
-  Serial.print("For Ideal Env: Ambient (Temp: 15-50 C, Humi: 20-65%), Bat Temp: 20-45 C, Vol: 55-65 V, Curr: 10-15 A");
-  Serial.print("---Current Values---");
+  Serial.println("-----------------------------------------------------\n");
+  Serial.println("For Ideal Env: Ambient (Temp: 15-50 C, Humi: 20-65%), Bat Temp: 20-45 C, Vol: 55-65 V, Curr: 10-15");
+  Serial.println("\n-------------------Current Values--------------------\n");
   Serial.print("Ambient Temperature: ");
   Serial.print(ambientTemperature);
   Serial.println(" C");

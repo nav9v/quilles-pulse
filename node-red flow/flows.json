@@ -1,0 +1,705 @@
+[
+    {
+        "id": "1d58154edbdfb571",
+        "type": "tab",
+        "label": "MQTT Dashboard",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "affaa21eb683e815",
+        "type": "global-config",
+        "name": "global-config",
+        "env": []
+    },
+    {
+        "id": "aad9b7d6.8b3468",
+        "type": "mqtt-broker",
+        "name": "nav",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d84d0cb3.1ebff",
+        "type": "ui_group",
+        "name": "Ambient Data: 🏙️🌡️🍃",
+        "tab": "f499313946464eca",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3fd66ae3c5ef4648",
+        "type": "ui_group",
+        "name": "Battery Data:🪫⚡🔋",
+        "tab": "f499313946464eca",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "792e0773cf2e2130",
+        "type": "ui_group",
+        "name": "📈📊",
+        "tab": "f499313946464eca",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f499313946464eca",
+        "type": "ui_tab",
+        "name": "🪸Quilles:  Battery Health Monitoring System for EV  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎   ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎ ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎   ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎ ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎  ‏‏‎ DASHBOARD",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "81d695c1ad3f1493",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "theme 1",
+                "default": "#4B7930",
+                "baseColor": "#000000",
+                "baseFont": "Times New Roman,Times,serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#000000",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#303030",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#303030",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#1c1c1c",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#1c1c1c",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "Times New Roman,Times,serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f7e44567d24f7277",
+        "type": "ui_spacer",
+        "z": "1d58154edbdfb571",
+        "name": "spacer",
+        "group": "792e0773cf2e2130",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "40d0ec9c5b9de149",
+        "type": "ui_spacer",
+        "z": "1d58154edbdfb571",
+        "name": "spacer",
+        "group": "d84d0cb3.1ebff",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f0ac0691441e2ad4",
+        "type": "ui_spacer",
+        "z": "1d58154edbdfb571",
+        "name": "spacer",
+        "group": "d84d0cb3.1ebff",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a3e4af0b5695bb9b",
+        "type": "ui_spacer",
+        "z": "1d58154edbdfb571",
+        "name": "spacer",
+        "group": "d84d0cb3.1ebff",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "1ccf9de6674c0693",
+        "type": "ui_spacer",
+        "z": "1d58154edbdfb571",
+        "name": "spacer",
+        "group": "d84d0cb3.1ebff",
+        "order": 6,
+        "width": "6",
+        "height": "2"
+    },
+    {
+        "id": "46319e9cbf0ebd7b",
+        "type": "ui_spacer",
+        "z": "1d58154edbdfb571",
+        "name": "spacer",
+        "group": "792e0773cf2e2130",
+        "order": 5,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "22b2d925203449c5",
+        "type": "ui_spacer",
+        "z": "1d58154edbdfb571",
+        "name": "spacer",
+        "group": "3fd66ae3c5ef4648",
+        "order": 4,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "fb0af654b98445eb",
+        "type": "mqtt in",
+        "z": "1d58154edbdfb571",
+        "name": "",
+        "topic": "/quillies/#",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "aad9b7d6.8b3468",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "b4118d3bd2236054",
+                "4073d4418859efa6"
+            ]
+        ]
+    },
+    {
+        "id": "b4118d3bd2236054",
+        "type": "json",
+        "z": "1d58154edbdfb571",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 300,
+        "y": 100,
+        "wires": [
+            [
+                "5e45abc71a7cb16c",
+                "1c2519588d065a94"
+            ]
+        ]
+    },
+    {
+        "id": "5e45abc71a7cb16c",
+        "type": "switch",
+        "z": "1d58154edbdfb571",
+        "name": "Topic Switch",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/quillies/ambientTemperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/quillies/humidity",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/quillies/batteryTemperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/quillies/voltage",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/quillies/current",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 450,
+        "y": 140,
+        "wires": [
+            [
+                "cb4884171ac51b3f",
+                "938dda65c0d41fd2"
+            ],
+            [
+                "c7cfb9ee7b589ef6",
+                "938dda65c0d41fd2"
+            ],
+            [
+                "023bf1399d459745",
+                "a7715ea0da5b80ca"
+            ],
+            [
+                "fbe23352e74baf22",
+                "a7715ea0da5b80ca"
+            ],
+            [
+                "6e75972b08e685f6",
+                "a7715ea0da5b80ca"
+            ]
+        ]
+    },
+    {
+        "id": "cb4884171ac51b3f",
+        "type": "ui_gauge",
+        "z": "1d58154edbdfb571",
+        "name": "Ambient Temperature",
+        "group": "d84d0cb3.1ebff",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Ambient Temperature (C)",
+        "label": "C",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "80",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c7cfb9ee7b589ef6",
+        "type": "ui_gauge",
+        "z": "1d58154edbdfb571",
+        "name": "Humidity",
+        "group": "d84d0cb3.1ebff",
+        "order": 5,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Humidity (%)",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "70",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 680,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "023bf1399d459745",
+        "type": "ui_gauge",
+        "z": "1d58154edbdfb571",
+        "name": "Battery Temperature",
+        "group": "3fd66ae3c5ef4648",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Battery Temperature (C)",
+        "label": "C",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "80",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "fbe23352e74baf22",
+        "type": "ui_gauge",
+        "z": "1d58154edbdfb571",
+        "name": "Voltage",
+        "group": "3fd66ae3c5ef4648",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Voltage (V)",
+        "label": "V",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "70",
+        "colors": [
+            "#ff4747",
+            "#e6e600",
+            "#acf76e"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 680,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6e75972b08e685f6",
+        "type": "ui_gauge",
+        "z": "1d58154edbdfb571",
+        "name": "Current",
+        "group": "3fd66ae3c5ef4648",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Current (A)",
+        "label": "A",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "20",
+        "colors": [
+            "#fd3044",
+            "#e6e600",
+            "#85db57"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5faa59063914fbbd",
+        "type": "ui_text",
+        "z": "1d58154edbdfb571",
+        "group": "792e0773cf2e2130",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "name": "Status",
+        "label": "System Status :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Gill Sans,Geneva,sans-serif",
+        "fontSize": "30",
+        "color": "#5bb63a",
+        "x": 690,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4073d4418859efa6",
+        "type": "debug",
+        "z": "1d58154edbdfb571",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 260,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1c2519588d065a94",
+        "type": "switch",
+        "z": "1d58154edbdfb571",
+        "name": "chargingStatus",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/quillies/chargingStatus",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "5faa59063914fbbd"
+            ]
+        ]
+    },
+    {
+        "id": "a7715ea0da5b80ca",
+        "type": "function",
+        "z": "1d58154edbdfb571",
+        "name": "function 1",
+        "func": "    return msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 260,
+        "wires": [
+            [
+                "7bb4340898b19591",
+                "4c0798fd4cb204f1"
+            ]
+        ]
+    },
+    {
+        "id": "7bb4340898b19591",
+        "type": "ui_chart",
+        "z": "1d58154edbdfb571",
+        "name": "aa",
+        "group": "792e0773cf2e2130",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Battery Data: Voltage, Current, Temperature",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "cubic",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "80",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c0798fd4cb204f1",
+        "type": "debug",
+        "z": "1d58154edbdfb571",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b6a36e6eb38c06a1",
+        "type": "ui_chart",
+        "z": "1d58154edbdfb571",
+        "name": "",
+        "group": "792e0773cf2e2130",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "Ambient Data: Temperature, Humidity",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "80",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "938dda65c0d41fd2",
+        "type": "function",
+        "z": "1d58154edbdfb571",
+        "name": "function 2",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 320,
+        "wires": [
+            [
+                "b6a36e6eb38c06a1"
+            ]
+        ]
+    }
+]
