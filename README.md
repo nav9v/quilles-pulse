@@ -138,7 +138,7 @@ Below are some screenshots of the Quilles project in action:
 
 1. **Node-RED Dashboard**:
    - ### This is how real-time data visualization of the battery health and charging status on the Node-RED dashboard.
-   - ![Node-RED Dashboard](project-pic\dash.gif)
+   - ![Node-RED Dashboard](project-pic/dash.gif)
 
    **Node-RED Flow:**
   - ### flow 🎴
