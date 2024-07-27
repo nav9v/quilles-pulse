@@ -138,16 +138,16 @@ Below are some screenshots of the Quilles project in action:
 
 1. **Node-RED Dashboard**:
    - ### This is how real-time data visualization of the battery health and charging status on the Node-RED dashboard.
-   - ![Node-RED Dashboard](project-pic/dash.gif)
+    ![Node-RED Dashboard](project-pic/dash.gif)
 
    **Node-RED Flow:**
   - ### flow 🎴
-  - ![Node-RED Flow](project-pic/flowsc.png)
+   ![Node-RED Flow](project-pic/flowsc.png)
 
 
 2. **Wokwi Simulation**:
    - ### This is how Wokwi simulation of the ESP32 circuit and code execution looks.
-   - ![Wokwi Simulation](project-pic/wokwisc.png)
+    ![Wokwi Simulation](project-pic/wokwisc.png)
 
 3. **OLED Display**:
    - ### This is how information displayed on the OLED screen of the ESP32, including ambient temperature, humidity, battery temperature, voltage, and current.
