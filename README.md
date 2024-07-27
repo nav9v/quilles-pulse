@@ -1,6 +1,6 @@
 # ⚡Quilles-Pulse⚡🔋🚗🛺
 
-## ⚡IoT-Based Battery Health Monitoring System for EV Charging Stations
+## ⚡IoT-Based Battery Health Monitoring System for EV Charging.
 
 Quilles is an IoT-based system designed to monitor battery health for electric vehicle (EV) charging stations. The project leverages an ESP32 microcontroller to gather environmental and battery data, which is then visualized using Node-RED. MQTT is used for real-time data transmission.
 
