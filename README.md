@@ -126,12 +126,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 -  ### **Made by [@iamnikitaa](https://github.com/iamnikitaa) and [@nav9v](https://github.com/nav9v) .**
 
-- Special thanks to the contributors of libraries and software used in this project.
-
-If you need a section for including screenshots in your README, here's a template you can use:
-
----
-
 ### Screenshots
 
 Below are some screenshots of the Quilles project in action:
@@ -151,4 +145,4 @@ Below are some screenshots of the Quilles project in action:
 
 3. **OLED Display**:
    - ### This is how information displayed on the OLED screen of the ESP32, including ambient temperature, humidity, battery temperature, voltage, and current.
-   - ![OLED Display](project-pic/oledsc.png)
+    ![OLED Display](project-pic/oledsc.png)
