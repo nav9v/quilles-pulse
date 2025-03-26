@@ -17,9 +17,9 @@ const int RELAY_PIN = 27;
 const int BUZZER_PIN = 26;
 const int POT_VOLTAGE_PIN = 34;
 const int POT_CURRENT_PIN = 33;
-const int LED_PIN2 = 18; // Green LED for Ideal Environment
-const int LED_PIN3 = 19; // Yellow LED for Below Ideal Environment
-const int LED_PIN4 = 5;  // Red LED for Not Ideal Charging Environment
+const int LED_PIN2 = 18;
+const int LED_PIN3 = 19; 
+const int LED_PIN4 = 5;  
 
 // WiFi and MQTT
 const char* ssid = "Wokwi-GUEST";
@@ -125,8 +125,8 @@ void loop() {
   int potVoltage = analogRead(POT_VOLTAGE_PIN);
   int potCurrent = analogRead(POT_CURRENT_PIN);
 
-  float voltage = potVoltage * (65.0 / 4095.0); // Adjusted for 0-65V range
-  float current = potCurrent * (15.0 / 4095.0); // Adjusted for 0-15A range
+  float voltage = potVoltage * (65.0 / 4095.0);
+  float current = potCurrent * (15.0 / 4095.0); 
 
   int analogValue = analogRead(NTC_PIN);
   float batteryTemperature = 0;
