@@ -163,8 +163,8 @@ Feel free to open issues or submit pull requests if you have improvements or fix
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## ⚡Acknowledgements⚡
+## ⚡Authors⚡
 
-- ### **Made by [@iamnikitaa](https://github.com/iamnikitaa) and [@nav9v](https://github.com/nav9v) .**
+- ### **Made by [Nikita](https://github.com/iamnikitaa) and [Navneet](https://github.com/nav9v) .**
 
 ---
