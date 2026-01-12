@@ -12,7 +12,7 @@ Quilles is an IoT-based system designed to monitor battery health for electric v
 - Integrates with Node-RED for dashboard visualization and data handling.
 
 ---
-
+### Report file - [here](/navIT.pdf)
 ### Screenshots
 
 Below are some screenshots of the Quilles project in action:
